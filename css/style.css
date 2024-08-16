@@ -1,0 +1,555 @@
+/* menu-banner*/
+/* Đặt nền cho phần header */
+.header {
+    background-color: #5c2b90; /* Màu tím nền */
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0; /* Xóa khoảng cách dưới */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 70px; /* Thêm khoảng cách 50px từ bên trái */
+}
+
+.logo img {
+    height: 60px;
+}
+
+
+/* Menu ngang */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Icon điều chỉnh ngôn ngữ */
+.lang-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 70px;
+}
+
+.lang-icons img {
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    margin: 0; /* Đảm bảo không có khoảng cách */
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    margin-top: 0; /* Xóa khoảng cách trên */
+}
+
+/* card */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #d9534f; /* Bootstrap danger color */
+    font-weight: bold;
+}
+
+    #menu1 .nav-link {
+        color: #888;
+        font-weight: 500;
+    }
+
+    #menu1 .nav-link:hover {
+        color: #d9534f;
+        text-decoration: none;
+    }
+
+#wp-products .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+#wp-products .card:hover {
+    transform: translateY(-5px);
+}
+
+#wp-products .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.pagination-container {
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    color: #d9534f;
+}
+
+.pagination .page-link:hover {
+    background-color: #d9534f;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+@media (max-width: 767px) {
+    #wp-products .col-sm-6 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+/* sản phảm huế*/
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px; /* Thêm khoảng cách bên trong card */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.card-text {
+    color: #333;
+}
+
+.nav-link {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #d9534f;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+#wp-products .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5px; /* Giảm khoảng cách giữa các cột để đủ chỗ cho 5 card */
+}
+
+#wp-products .col-lg-2 {
+    padding: 0 5px; /* Giảm khoảng cách giữa các thẻ card */
+}
+
+#wp-products .card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#wp-products .card img {
+    max-height: 170px; /* Đảm bảo kích thước hình ảnh phù hợp */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (min-width: 992px) {
+    #wp-products .col-lg-2 {
+        flex: 0 0 19%; /* Đảm bảo mỗi card chiếm khoảng 19% chiều rộng để vừa đủ 5 card trên 1 hàng */
+        max-width: 19%;
+    }
+}
+.card-body {
+    padding-left: 0; /* Loại bỏ padding bên trái */
+    text-align: left; /* Căn văn bản về bên trái */
+}
+
+.card-title, .card-text {
+    margin-left: 0; /* Loại bỏ margin bên trái */
+    padding-left: 0; /* Loại bỏ padding bên trái */
+}
+
+.card-body > * {
+    text-align: left; /* Đảm bảo tất cả các phần tử trong card-body đều căn về bên trái */
+    margin-left: 0; /* Đảm bảo không có khoảng cách margin bên trái */
+    padding-left: 0; /* Đảm bảo không có khoảng cách padding bên trái */
+}
+
+
+
+
+/* sản vật phú lộc*/
+/* Container */
+
+/* Container */
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+}
+
+/* Card */
+.product5-card5 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 640px;
+    margin-right: 10px;
+    margin: 10px;
+    position: relative; /* Đặt vị trí tương đối cho thẻ chứa */
+}
+
+.product5-card5:last-child {
+    margin-right: 0;
+}
+
+/* Content */
+.product5-content5 {
+    padding: 20px;
+    flex: 1;
+    z-index: 2;
+}
+
+.product5-title5 {
+    font-size: 1.5em;
+    color: #FFA500;
+    margin-bottom: 10px;
+    position: relative; /* Giữ nguyên vị trí của tiêu đề */
+    z-index: 3; /* Đảm bảo tiêu đề luôn ở trên */
+}
+
+/* Phần văn bản đè lên ảnh */
+.product5-description5 {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    position: absolute; /* Đặt vị trí tuyệt đối để đè lên ảnh */
+    top: 50%; /* Điều chỉnh vị trí của văn bản */
+    left: 0; /* Đặt sát với lề trái của khung thẻ */
+    right: 200px;
+    transform: translateY(-50%); /* Căn giữa văn bản theo chiều dọc */
+    background-color: #fff; /* Nền trắng với độ trong suốt */
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 2;
+    width: auto; /* Tự động điều chỉnh chiều rộng */
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng nhẹ cho khung văn bản */
+}
+
+.product5-link {
+    color: #FF4500;
+    text-decoration: none;
+    font-weight: bold;
+    display: block; /* Đảm bảo liên kết là một khối để dễ dàng căn chỉnh */
+    margin-top: 10px; /* Khoảng cách giữa phần mô tả và liên kết */
+}
+
+/* Image */
+.product5-image-container5 {
+    flex: 1;
+    overflow: hidden;
+}
+
+.product5-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+
+
+
+/*san pham quan tam*/
+/* Container cho banner và card */
+.banner-container1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-container1 img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.card-container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center; /* Căn giữa các card theo chiều ngang */
+    width: calc(100% - 400px); /* Tinh toán chiều rộng của container với khoảng cách 200px từ mỗi bên */
+    padding: 0 180px; /* Thêm khoảng cách từ trái và phải */
+    gap: 20px;
+    z-index: 2;
+}
+
+.card1 {
+    flex: 1;
+    height: 350px; /* Tăng chiều cao của card */
+    width: 150px; /* Giảm chiều rộng của card cho phù hợp */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card1:first-of-type img {
+    width: 60px; /* Giữ nguyên kích thước cho icon sách */
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Đảm bảo icon nằm giữa */
+}
+
+.card1:first-of-type .card-body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 0 50px; /* Bỏ padding để không ảnh hưởng tới bố cục */
+}
+
+.card1:first-of-type .card-title1 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.flip-card {
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.flip-card-back h5 {
+    margin-bottom: 10px;
+}
+
+.flip-card-back p5 {
+    margin-bottom: 20px;
+}
+
+.flip-card-back button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.flip-card-back button:hover {
+    background-color: #ddd;
+}
+
+/* doanh nghiep hue */
+
+.card {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    flex: 1;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.text-primary {
+    font-weight: 500;
+}
+
+.pagination-container {
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    color: #28a745;
+}
+
+.pagination .page-link:hover {
+    background-color: #28a745;
+    color: white;
+}
+/* quảng cáo*/
+.grid-item {
+    padding: 0; /* Loại bỏ padding để ảnh chiếm hết khung */
+    border: 1px solid #dee2e6;
+    height: 100%;
+    overflow: hidden; /* Đảm bảo ảnh không vượt quá kích thước khung */
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt và làm đầy khung mà vẫn giữ tỷ lệ của ảnh */
+}
+
+/* foooter */
+.bg-footer {
+    background-color: #6f42c1; /* Màu tím */
+    color: white;
+    padding: 0; /* Đảm bảo nền tràn sát */
+    width: 100%;
+    margin: 0; /* Loại bỏ mọi khoảng cách không cần thiết */
+}
+
+.separator {
+    border-top: 1px solid #dee2e6;
+    margin: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.footer-icons img {
+    margin-left: 10px;
+}
+
+.img-fluid {
+    width: 100%; /* Để hình ảnh full khung */
+    height: auto;
+}
+
+.mt-3 {
+    margin-top: 1rem; /* Khoảng cách trên */
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    color: black;
+}
+.container-fluid {
+    padding: 0; /* Loại bỏ padding mặc định */
+    margin: 0; /* Loại bỏ margin mặc định */
+}
+.footer-icons img {
+    margin-left: 10px;
+    height: 24px; /* Điều chỉnh chiều cao cho nhỏ lại */
+    width: auto; /* Tự động điều chỉnh chiều rộng theo tỷ lệ */
+}
+
